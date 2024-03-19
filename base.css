@@ -1,0 +1,90 @@
+body {
+    background-color: #ffaf7a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.h1underline {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #ff8b3d;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px 3rem;
+  }
+
+nav a:hover {
+    background-color: #ff6600;
+  }
+
+.active {
+    background-color: #ff781f;
+}
+
+.hannah {
+    max-width: 90%;
+    vertical-align: middle;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    flex: 4;
+}
+
+.imagediv {
+    text-align: center;
+}
+
+.sitepurposediv {
+    background-color: #ff8b3d;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ff8b3d;
+    padding: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    max-width: 40%;
+}
+
+footer {
+    background-color: #ff8b3d;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    flex: 1;
+  }
+
+  .psize {
+    font-size: 20px;
+  }
+
+  .changecenterfordiv {
+    text-align: center;
+    padding: 30px;
+  }
+
+  /* -----------------About Me-------------------- */
