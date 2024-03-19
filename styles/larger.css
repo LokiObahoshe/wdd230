@@ -1,0 +1,59 @@
+@media (max-width: 400px) {
+
+    main {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+
+    .sitepurposediv {
+        display: block;
+        height: 400px;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .hannah {
+        border: 1px solid black;
+        padding: 1px;
+    }
+
+    .sitepurposediv2 {
+        position: relative;
+        bottom: 125px;
+        left: 55px;
+        font-size: 25px;
+        max-width: 100%;
+        display: block;
+        padding: 1px;
+    }
+
+    .psize {
+        font-size: 12.9px;
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 10px 3rem;
+        display: block;
+      }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .h1underline {
+        font-size: 40px;
+    }
+
+    nav {
+        margin-bottom: 40px;
+    }
+
+    #sitepurposeid {
+        font-size: 23px;
+    }
+
+}

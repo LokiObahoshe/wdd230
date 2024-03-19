@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hannah's First Website</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Practice Website">
+    <meta name="description" content="Practice Website - Home">
     <meta name="author" content="LokiObahoshe">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/hannahfavicon.ico">
 </head>
 
 <main>
@@ -18,13 +20,19 @@
         <h1 class="h1underline">My First Website</h1>
         <nav>
             <a class='active' href="http://127.0.0.1:5500/index.html">Home</a>
-            <a href="#">About Me</a>
+            <a href="http://127.0.0.1:5500/aboutme.html">About Me</a>
             <a href="#">My Career</a>
             <a href="#">Extra</a>
         </nav>
     </header>
         <div class="imagediv">
-            <img class ='hannah' src="images/hannah.png">
+            <picture>
+                <source media="(max-width: 1000px)" srcset="images/hannah-small.png">
+                <img class ='hannah' src="images/hannah.png" alt="HannahIntroductionImage">
+                <div class="sitepurposediv2">
+                    <p>"Hi, I'm Hannah, and welcome to my page!"</p>
+                </div>
+            </picture>
         </div>
         <br>
         <div class="changecenterfordiv">
@@ -34,7 +42,7 @@
             </div>
             <div class="sitepurposediv">
                 <h1>Site Purpose</h1>
-                <p class="psize">The purpose of this website is to help me understand HTML and CSS. I shall be using properties such as tables, grids, classes, divs, etc. GitHub and Visual Studio Code will be used.</p>
+                <p class="psize" id = "sitepurposeid">The purpose of this website is to help me understand HTML and CSS. I shall be using properties such as tables, grids, classes, divs, etc. GitHub and Visual Studio Code will be used.</p>
             </div>
         </div>
     </body>
