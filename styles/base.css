@@ -106,6 +106,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px; /* Optional spacing between images */
+    margin-top: 70px;
   }
 
    .aboutmediv img:hover {
