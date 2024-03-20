@@ -59,4 +59,15 @@
         font-size: 22px;
     }
 
+    /* -----------------About Me-------------------- */
+
+    .aboutmediv img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+    }
+
 }

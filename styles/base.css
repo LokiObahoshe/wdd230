@@ -45,7 +45,6 @@ nav a:hover {
 
 .hannah {
     max-width: 90%;
-    vertical-align: middle;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
@@ -100,7 +99,8 @@ footer {
   /* -----------------About Me-------------------- */
 
   .aboutmediv img {
-    width: 400px;
+    width: 40%;
+    max-width: 1200px;
     height: auto;
     margin-bottom: 40px;
     display: grid;
@@ -108,16 +108,45 @@ footer {
     gap: 10px; /* Optional spacing between images */
   }
 
-  /*
-  .image1, .image3, .image5 {
+   .aboutmediv img:hover {
+    transform: scale(1.1);
+  }
+
+  
+  /* .image1, .image3, .image5 {
     float: left;
     padding: 20px;
     margin-right: 10px;
+  } */
+
+  .image1 {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px #ff8b3d;
+    border-radius: 100px;
   }
 
-  .image2, .image4 {
+  /* .image2, .image4 {
     float: right;
   } */
+
+  .aboutmediv {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .containerabout {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .containerabout p {
+    font-size: 40px;
+  }
 
     /* -----------------Extra-------------------- */
 
