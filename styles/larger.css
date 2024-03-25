@@ -12,6 +12,13 @@
         padding: 10px;
     }
 
+    .sitepurposediv4 {
+        display: block;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+    }
+
     .hannah {
         border: 1px solid black;
         padding: 1px;
@@ -68,6 +75,16 @@
         width: 100%;
         max-width: 1200px;
         height: auto;
+    }
+
+    /* -----------------About Me-------------------- */
+
+    .container, .extrash1hide, .extrastable, .sitepurposediv3 {
+        display: none;
+    }
+
+    .extrasmobileuser {
+        display: block;
     }
 
 }
