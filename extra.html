@@ -15,102 +15,156 @@
     <link rel="icon" href="images/hannahfavicon.ico">
 </head>
 
-<main>
-    <body>
-    <header>
-        <h1 class="h1underline">Extra</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="#">My Career</a>
-            <a class='active' href="extra.html">Extra</a>
-        </nav>
-    </header>
-    <div class="extrasmobileuser">
-        <p>Apologies! This page is momentarily unavailable for mobile viewers.</p>
-    </div>
-    <h1 class="extrash1hide">Grid Practice<h1>
-    <div class="container">
-        <div class="item-1">1</div>
-        <div class="item-2">2</div>
-        <div class="item-3">3</div>
-    </div>
-    <br>
-
-    <div class="sitepurposediv3">
-        <h1>CSS Practice</h1>
-        <h5>Hover Practice:</h5>
-        <div class="divextrahover">Hover over this div element with your mouse!
-            <div class="psize">
-                <p class="hidden">Boo!</p>
-            </div>
+<body>
+    <main>
+        <header>
+            <h1 class="h1underline">Extra</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="#">My Career</a>
+                <a class='active' href="extra.html">Extra</a>
+            </nav>
+        </header>
+        <div class="extrasmobileuser">
+            <p>Apologies! This page is momentarily unavailable for mobile viewers.</p>
         </div>
-            <h5>Hightlight Practice:</h5>
-            <p class="phighlight">Dagum, this is <i>weird!</i></p>
+        <h1 class="extrash1hide">Grid Practice<h1>
+        <div class="container">
+            <div class="item-1">1</div>
+            <div class="item-2">2</div>
+            <div class="item-3">3</div>
+        </div>
         <br>
 
-    </div>
+        <div class="sitepurposediv3">
+            <h1>CSS Practice</h1>
+            <h5>Hover Practice:</h5>
+            <div class="divextrahover">Hover over this div element with your mouse!
+                <div class="psize">
+                    <p class="hidden">Boo!</p>
+                </div>
+            </div>
+                <h5>Hightlight Practice:</h5>
+                <p class="phighlight">Dagum, this is <i>weird!</i></p>
+            <br>
 
-    <br>
+        </div>
 
-    <div class="extrastable">
-        <h1>Table Practice</h1>
         <br>
 
-        <table>
-            <caption>Animation View Data 👁️</caption>
-            <thead>
-                <tr>
-                    <th colspan="2" scope="colgroup">My Animation Meme Views</th>
-                </tr>
-                <tr>
-                    <th class="tablehighlight" scope="col">Video</th>
-                    <th class="tablehighlight" scope="col">Views</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>BIG SHOT</td>
-                    <td>171,786</td>
-                </tr>
-                <tr>
-                    <td>Two Souls</td>
-                    <td>1,093</td>
-                </tr>
-                <tr>
-                    <td>I Deserve This</td>
-                    <td>765</td>
-                </tr>
-                <tr>
-                    <td>Greedy</td>
-                    <td>741</td>
-                </tr>
-                <tr>
-                    <td>I'll Call Up The Devil</td>
-                    <td>696</td>
-                </tr>
-                <tr>
-                    <td>Fahrradsattel</td>
-                    <td>480</td>
-                </tr>
-                <tr>
-                    <td>In My Mind</td>
-                    <td>470</td>
-                </tr>
-                <tr>
-                    <td>Incision</td>
-                    <td>460</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="extrastable">
+            <h1>Table Practice</h1>
+            <br>
 
+            <table>
+                <caption>Animation View Data 👁️</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2" scope="colgroup">My Animation Meme Views</th>
+                    </tr>
+                    <tr>
+                        <th class="tablehighlight" scope="col">Video</th>
+                        <th class="tablehighlight" scope="col">Views</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BIG SHOT</td>
+                        <td>171,786</td>
+                    </tr>
+                    <tr>
+                        <td>Two Souls</td>
+                        <td>1,093</td>
+                    </tr>
+                    <tr>
+                        <td>I Deserve This</td>
+                        <td>765</td>
+                    </tr>
+                    <tr>
+                        <td>Greedy</td>
+                        <td>741</td>
+                    </tr>
+                    <tr>
+                        <td>I'll Call Up The Devil</td>
+                        <td>696</td>
+                    </tr>
+                    <tr>
+                        <td>Fahrradsattel</td>
+                        <td>480</td>
+                    </tr>
+                    <tr>
+                        <td>In My Mind</td>
+                        <td>470</td>
+                    </tr>
+                    <tr>
+                        <td>Incision</td>
+                        <td>460</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="sitepurposediv5">
+            <h1>Weather Practice</h1>
+            <hr>
+            <!--<p>Current Desc: <figcaption class="forecastCaptionDesc"></figcaption></p>-->
+                
+            <p>Current temperature in Trier, Germany is <span id="current-temp"></span></p>
+            <div>
+                <img class="forecastIcon" src="" alt="">
+            </div>
+            <p><span id="current-desc"></span></p>
+
+            <hr>
+
+            <figure id="day1">
+                <p class="day"></p>
+                <div>
+                  <img class="forecastIcon" src="" alt="">
+                </div>
+                <p class="tempForecast"></p>
+                <figcaption class="forecastCaptionDesc"></figcaption>
+            </figure>
+
+            <hr>
+
+            <figure id="day2">
+                <p class="day"></p>
+                <div>
+                  <img class="forecastIcon" src="" alt="">
+                </div>
+                <p class="tempForecast"></p>
+                <figcaption class="forecastCaptionDesc"></figcaption>
+            </figure>
+
+            <hr>
+
+            <figure id="day3">
+                <p class="day"></p>
+                <div>
+                  <img class="forecastIcon" src="" alt="">
+                </div>
+                <p class="tempForecast"></p>
+                <figcaption class="forecastCaptionDesc"></figcaption>
+            </figure>
+
+                <!-- <img id="weather-icon" src="" alt="">
+                <p id="tempForecast"></p>
+                <figcaption></figcaption> -->
+        </div>
+
+    </main>
+    <div>
+        <footer>
+            <p>&copy; LokiObahoshe (fake footer for practice)</p>
+        </footer>
     </div>
-
-    </body>
-</main>
+</body>
 <div>
-    <footer>
-        <p>&copy; LokiObahoshe (fake footer for practice)</p>
-    </footer>
+    
+    <script src="scripts/weather.js"></script>
+
 </div>
 </html>

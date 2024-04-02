@@ -304,3 +304,8 @@ tr:first-child th{
 .tablehighlight {
   background-color: var(--lightertablecolor);
 }
+
+#weather-icon {
+  width: 150px;
+  height: auto;
+}
